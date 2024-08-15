@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.weatherapp"
+    namespace = "com.example.wheather_app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.weatherapp"
-        minSdk = 29
+        applicationId = "com.example.wheather_app"
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -45,4 +45,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation (libs.lottie)
 }

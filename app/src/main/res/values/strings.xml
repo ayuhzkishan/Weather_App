@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Weather App</string>
+    <string name="app_name">Wheather_App</string>
+    <string name="wheather_matters_nwe_ve_got_the_details">Wheather matters,\nWe\'ve Got the details</string>
 </resources>
