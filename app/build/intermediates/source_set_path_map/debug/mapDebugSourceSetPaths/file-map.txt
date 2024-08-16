@@ -1,0 +1,35 @@
+com.example.weatherapp-coordinatorlayout-1.1.0-0 C:\Users\Debasish\.gradle\caches\transforms-4\00defcd115cbf0f7b9b70b3aa5df84d5\transformed\coordinatorlayout-1.1.0\res
+com.example.weatherapp-jetified-startup-runtime-1.1.1-1 C:\Users\Debasish\.gradle\caches\transforms-4\06f1ca3b774add208efd7a36e6907be7\transformed\jetified-startup-runtime-1.1.1\res
+com.example.weatherapp-recyclerview-1.1.0-2 C:\Users\Debasish\.gradle\caches\transforms-4\07e8c609a844fec3c5b9f14e7d523900\transformed\recyclerview-1.1.0\res
+com.example.weatherapp-jetified-viewpager2-1.0.0-3 C:\Users\Debasish\.gradle\caches\transforms-4\0fd5b2e4ac77616b81e1d72487c438b9\transformed\jetified-viewpager2-1.0.0\res
+com.example.weatherapp-jetified-emoji2-1.3.0-4 C:\Users\Debasish\.gradle\caches\transforms-4\17b8da1a6f53a15642046d0840a5b69d\transformed\jetified-emoji2-1.3.0\res
+com.example.weatherapp-material-1.12.0-5 C:\Users\Debasish\.gradle\caches\transforms-4\2e56087bd32bf4c2c22b033b820a064a\transformed\material-1.12.0\res
+com.example.weatherapp-lifecycle-livedata-core-2.6.2-6 C:\Users\Debasish\.gradle\caches\transforms-4\3417a08734f3fc1a89b7a4b96adbf10e\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.weatherapp-lifecycle-runtime-2.6.2-7 C:\Users\Debasish\.gradle\caches\transforms-4\47c44d1b408014240b02360190d17a96\transformed\lifecycle-runtime-2.6.2\res
+com.example.weatherapp-jetified-lifecycle-viewmodel-savedstate-2.6.2-8 C:\Users\Debasish\.gradle\caches\transforms-4\50f17a18464fc4e2ef957113423d3067\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.weatherapp-appcompat-1.7.0-9 C:\Users\Debasish\.gradle\caches\transforms-4\512a06ab17417ac29d086133f11d37ac\transformed\appcompat-1.7.0\res
+com.example.weatherapp-jetified-savedstate-1.2.1-10 C:\Users\Debasish\.gradle\caches\transforms-4\59652e68dba8e5ea2bf1018431527e29\transformed\jetified-savedstate-1.2.1\res
+com.example.weatherapp-jetified-core-ktx-1.13.1-11 C:\Users\Debasish\.gradle\caches\transforms-4\681124652a7a2ed530ee76787237b3e3\transformed\jetified-core-ktx-1.13.1\res
+com.example.weatherapp-core-1.13.1-12 C:\Users\Debasish\.gradle\caches\transforms-4\6a80d410c4360bb64c2d409226726e57\transformed\core-1.13.1\res
+com.example.weatherapp-lifecycle-livedata-2.6.2-13 C:\Users\Debasish\.gradle\caches\transforms-4\6c46235ef5a75632fe65f4b8557fb257\transformed\lifecycle-livedata-2.6.2\res
+com.example.weatherapp-transition-1.5.0-14 C:\Users\Debasish\.gradle\caches\transforms-4\84cbcd86a766733562cd01089e56d603\transformed\transition-1.5.0\res
+com.example.weatherapp-jetified-lifecycle-process-2.6.2-15 C:\Users\Debasish\.gradle\caches\transforms-4\851fc10efed1804e6ddde6311464fede\transformed\jetified-lifecycle-process-2.6.2\res
+com.example.weatherapp-jetified-appcompat-resources-1.7.0-16 C:\Users\Debasish\.gradle\caches\transforms-4\8b1c778fb909190f2e9b45489e45e32d\transformed\jetified-appcompat-resources-1.7.0\res
+com.example.weatherapp-drawerlayout-1.1.1-17 C:\Users\Debasish\.gradle\caches\transforms-4\9c4f44b83927b90586a4a60d0861edfe\transformed\drawerlayout-1.1.1\res
+com.example.weatherapp-lifecycle-viewmodel-2.6.2-18 C:\Users\Debasish\.gradle\caches\transforms-4\a2d5ac6ea10c602b3d150858b0f2e041\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.weatherapp-fragment-1.5.4-19 C:\Users\Debasish\.gradle\caches\transforms-4\a32ad1c7609be967d8d319e1ff7f1cc9\transformed\fragment-1.5.4\res
+com.example.weatherapp-jetified-emoji2-views-helper-1.3.0-20 C:\Users\Debasish\.gradle\caches\transforms-4\a8b510aceb881ad7e3ec1c5aca31f15b\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.example.weatherapp-jetified-activity-1.9.1-21 C:\Users\Debasish\.gradle\caches\transforms-4\aa0119b1c8d5be406da5fe265f011176\transformed\jetified-activity-1.9.1\res
+com.example.weatherapp-jetified-lottie-6.5.0-22 C:\Users\Debasish\.gradle\caches\transforms-4\ac37fc763bac2ccc6fafd9f374212a04\transformed\jetified-lottie-6.5.0\res
+com.example.weatherapp-cardview-1.0.0-23 C:\Users\Debasish\.gradle\caches\transforms-4\b5f781956d50303bc16301848e33a30a\transformed\cardview-1.0.0\res
+com.example.weatherapp-core-runtime-2.2.0-24 C:\Users\Debasish\.gradle\caches\transforms-4\c80ae7c30086b6f2ed2f0272bdb0b586\transformed\core-runtime-2.2.0\res
+com.example.weatherapp-jetified-annotation-experimental-1.4.0-25 C:\Users\Debasish\.gradle\caches\transforms-4\cf84e445476876c8e8cf0f75dbb2a908\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.weatherapp-constraintlayout-2.1.4-26 C:\Users\Debasish\.gradle\caches\transforms-4\fa6eef05ae523304a15b4a26191edddd\transformed\constraintlayout-2.1.4\res
+com.example.weatherapp-jetified-profileinstaller-1.3.1-27 C:\Users\Debasish\.gradle\caches\transforms-4\ff05d1f8acaccfb624db911d4772cef0\transformed\jetified-profileinstaller-1.3.1\res
+com.example.weatherapp-pngs-28 C:\Users\Debasish\OneDrive\Desktop\New folder\app\build\generated\res\pngs\debug
+com.example.weatherapp-resValues-29 C:\Users\Debasish\OneDrive\Desktop\New folder\app\build\generated\res\resValues\debug
+com.example.weatherapp-packageDebugResources-30 C:\Users\Debasish\OneDrive\Desktop\New folder\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.weatherapp-packageDebugResources-31 C:\Users\Debasish\OneDrive\Desktop\New folder\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.weatherapp-debug-32 C:\Users\Debasish\OneDrive\Desktop\New folder\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.weatherapp-debug-33 C:\Users\Debasish\OneDrive\Desktop\New folder\app\src\debug\res
+com.example.weatherapp-main-34 C:\Users\Debasish\OneDrive\Desktop\New folder\app\src\main\res
