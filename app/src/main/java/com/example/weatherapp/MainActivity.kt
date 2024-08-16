@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl("https://api.openweathermap.org/data/2.5/")
             .build().create(ApiInterface::class.java)
-        val response= retrofit.getWeatherData(city = "Burla", appid = "fa434a6aafd718d12c00578c0b25f3d4", units = "metric")
+        val response= retrofit.getWeatherData(city = "Brahmapur", appid = "fa434a6aafd718d12c00578c0b25f3d4", units = "metric")
         response.enqueue(object : Callback<WeatherApp>{
             @SuppressLint("SetTextI18n")
             override fun onResponse(call: Call<WeatherApp>, response: Response<WeatherApp>) {
