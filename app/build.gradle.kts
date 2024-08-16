@@ -5,11 +5,15 @@ plugins {
 
 android {
     namespace = "com.example.weatherapp"
+    //noinspection GradleDependency
     compileSdk = 34
-
+buildFeatures{
+    viewBinding=true
+}
     defaultConfig {
         applicationId = "com.example.weatherapp"
         minSdk = 26
+        //noinspection OldTargetApi
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -46,4 +50,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation (libs.lottie)
+    implementation(libs.converter.gson)
+    implementation(libs.retrofit)
 }
