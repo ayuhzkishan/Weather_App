@@ -1,16 +1,14 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color ic_launcher_background
 color white
-drawable _016062
 drawable _195404
-drawable _202745
 drawable _289485
-drawable _35558
 drawable _373030
-drawable _541565
 drawable backgroundshape
 drawable centigrade
+drawable cloud_background
 drawable group1
 drawable group_17
 drawable group_18
@@ -30,10 +28,14 @@ drawable group_57
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icon
+drawable rain_background
+drawable rainny
 drawable searchviewshape
+drawable snow_background
 drawable splash_screen
 drawable splash_screen_jpg
 drawable sunny
+drawable sunny_background
 drawable vector
 id Condition
 id Humidity
@@ -65,6 +67,7 @@ id windspeed
 layout activity_main
 layout activity_splash
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw cloud
 raw rain

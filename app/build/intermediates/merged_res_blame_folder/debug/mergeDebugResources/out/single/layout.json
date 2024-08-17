@@ -1,10 +1,14 @@
 [
     {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-mergeDebugResources-31:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-34:\\layout\\activity_splash.xml"
+    },
+    {
         "merged": "com.example.weatherapp-mergeDebugResources-31:/layout/activity_main.xml",
         "source": "com.example.weatherapp-main-34:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.weatherapp-mergeDebugResources-31:/layout/activity_splash.xml",
-        "source": "com.example.weatherapp-main-34:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-mergeDebugResources-31:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-34:\\layout\\activity_main.xml"
     }
 ]

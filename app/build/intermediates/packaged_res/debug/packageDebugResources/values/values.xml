@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ic_launcher_background">#3DACDC</color>
     <string name="app_name">Weather_App</string>
     <string name="wheather_matters_nwe_ve_got_the_details">Weather matters,\nWe\'ve Got the details</string>
     <style name="Base.Theme.weatherapp" parent="Theme.Material3.DayNight.NoActionBar">
