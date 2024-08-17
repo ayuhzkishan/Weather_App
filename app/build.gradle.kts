@@ -52,4 +52,7 @@ dependencies {
     implementation (libs.lottie)
     implementation(libs.converter.gson)
     implementation(libs.retrofit)
+    implementation (libs.play.services.location)
+
+
 }
