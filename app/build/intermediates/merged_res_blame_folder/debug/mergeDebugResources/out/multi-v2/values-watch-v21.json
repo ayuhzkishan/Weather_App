@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.weatherapp-mergeDebugResources-30:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.weatherapp-mergeDebugResources-32:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ayush\\.gradle\\caches\\transforms-4\\512a06ab17417ac29d086133f11d37ac\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\ayush\\.gradle\\caches\\transforms-4\\f9f7e3b3862132234ade6c90e29bd902\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

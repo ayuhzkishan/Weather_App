@@ -23,6 +23,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.Date
 import java.util.Locale
 import android.Manifest
+import android.widget.Toast
 
 
 class MainActivity : AppCompatActivity() {
@@ -38,26 +39,36 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(androidx.core.view.WindowInsetsCompat.Type.systemBars())
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
         fetchWeatherData("Burla") // Fetch weather by default city name
-        SearchCity() // Handle search by city name
+        SearchCity()
 
-        checkLocationPermissions() // Check and request location permissions
+        checkLocationPermissions() // Request location permissions
     }
 
     private fun checkLocationPermissions() {
-        if (ContextCompat.checkSelfPermission(
-                this,
-                Manifest.permission.ACCESS_FINE_LOCATION
-            ) != PackageManager.PERMISSION_GRANTED
+        val fineLocationPermission = ContextCompat.checkSelfPermission(
+            this,
+            Manifest.permission.ACCESS_FINE_LOCATION
+        )
+        val coarseLocationPermission = ContextCompat.checkSelfPermission(
+            this,
+            Manifest.permission.ACCESS_COARSE_LOCATION
+        )
+
+        if (fineLocationPermission != PackageManager.PERMISSION_GRANTED ||
+            coarseLocationPermission != PackageManager.PERMISSION_GRANTED
         ) {
             ActivityCompat.requestPermissions(
                 this,
-                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                arrayOf(
+                    Manifest.permission.ACCESS_FINE_LOCATION,
+                    Manifest.permission.ACCESS_COARSE_LOCATION
+                ),
                 LOCATION_PERMISSION_REQUEST_CODE
             )
         } else {
@@ -71,10 +82,15 @@ class MainActivity : AppCompatActivity() {
         grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE && grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            getCurrentLocation()
-        } else {
-            // Handle permission denial
+        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
+            val fineLocationGranted = grantResults.getOrNull(0) == PackageManager.PERMISSION_GRANTED
+            val coarseLocationGranted = grantResults.getOrNull(1) == PackageManager.PERMISSION_GRANTED
+
+            if (fineLocationGranted || coarseLocationGranted) {
+                getCurrentLocation()
+            } else {
+                Toast.makeText(this, "Location permissions denied. Unable to fetch weather data.", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 
@@ -84,7 +100,8 @@ class MainActivity : AppCompatActivity() {
         if (ActivityCompat.checkSelfPermission(
                 this,
                 Manifest.permission.ACCESS_FINE_LOCATION
-            ) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(
+            ) != PackageManager.PERMISSION_GRANTED &&
+            ActivityCompat.checkSelfPermission(
                 this,
                 Manifest.permission.ACCESS_COARSE_LOCATION
             ) != PackageManager.PERMISSION_GRANTED
@@ -100,7 +117,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun SearchCity() {
-        val searchView = binding.searchView as SearchView // Ensure the correct casting
+        val searchView = binding.searchView as SearchView
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 if (query != null) {
@@ -131,36 +148,14 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<WeatherApp>, response: Response<WeatherApp>) {
                 val responseBody = response.body()
                 if (response.isSuccessful && responseBody != null) {
-                    val temperature = responseBody.main.temp.toString()
-                    val humidity = responseBody.main.humidity
-                    val windspeed = responseBody.wind.speed
-                    val sunRise = responseBody.sys.sunrise.toLong()
-                    val sunSet = responseBody.sys.sunset.toLong()
-                    val seaLevel = responseBody.main.pressure
-                    val condition = responseBody.weather.firstOrNull()?.main ?: "unknown"
-                    val maxTemp = responseBody.main.temp_max
-                    val minTemp = responseBody.main.temp_min
-
-                    binding.temp.text = "$temperature C"
-                    binding.weather.text = condition
-                    binding.maxTemp.text = "Max: $maxTemp C"
-                    binding.minTemp.text = "Min: $minTemp C"
-                    binding.Humidity.text = "$humidity %"
-                    binding.windspeed.text = "$windspeed m/s"
-                    binding.sunrise.text = "${time(sunRise)}"
-                    binding.sunset.text = "${time(sunSet)}"
-                    binding.sea.text = "$seaLevel hpa"
-                    binding.Condition.text = condition
-                    binding.day.text = dayName(System.currentTimeMillis())
-                    binding.date.text = date()
-                    binding.cityName.text = "$cityName"
-
-                    changeImagesaccordingtoweather(condition)
+                    updateUI(responseBody, cityName)
+                } else {
+                    Toast.makeText(this@MainActivity, "Failed to get weather data.", Toast.LENGTH_SHORT).show()
                 }
             }
 
             override fun onFailure(call: Call<WeatherApp>, t: Throwable) {
-                // Handle failure
+                Toast.makeText(this@MainActivity, "Failed to connect to the server.", Toast.LENGTH_SHORT).show()
             }
         })
     }
@@ -182,38 +177,45 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<WeatherApp>, response: Response<WeatherApp>) {
                 val responseBody = response.body()
                 if (response.isSuccessful && responseBody != null) {
-                    val temperature = responseBody.main.temp.toString()
-                    val humidity = responseBody.main.humidity
-                    val windspeed = responseBody.wind.speed
-                    val sunRise = responseBody.sys.sunrise.toLong()
-                    val sunSet = responseBody.sys.sunset.toLong()
-                    val seaLevel = responseBody.main.pressure
-                    val condition = responseBody.weather.firstOrNull()?.main ?: "unknown"
-                    val maxTemp = responseBody.main.temp_max
-                    val minTemp = responseBody.main.temp_min
-
-                    binding.temp.text = "$temperature C"
-                    binding.weather.text = condition
-                    binding.maxTemp.text = "Max: $maxTemp C"
-                    binding.minTemp.text = "Min: $minTemp C"
-                    binding.Humidity.text = "$humidity %"
-                    binding.windspeed.text = "$windspeed m/s"
-                    binding.sunrise.text = "${time(sunRise)}"
-                    binding.sunset.text = "${time(sunSet)}"
-                    binding.sea.text = "$seaLevel hpa"
-                    binding.Condition.text = condition
-                    binding.day.text = dayName(System.currentTimeMillis())
-                    binding.date.text = date()
-                    binding.cityName.text = "Your Location"
-
-                    changeImagesaccordingtoweather(condition)
+                    updateUI(responseBody, "Your Location")
+                } else {
+                    Toast.makeText(this@MainActivity, "Failed to get weather data.", Toast.LENGTH_SHORT).show()
                 }
             }
 
             override fun onFailure(call: Call<WeatherApp>, t: Throwable) {
-                // Handle failure
+                Toast.makeText(this@MainActivity, "Failed to connect to the server.", Toast.LENGTH_SHORT).show()
             }
         })
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun updateUI(weatherData: WeatherApp, locationName: String) {
+        val temperature = weatherData.main.temp.toString()
+        val humidity = weatherData.main.humidity
+        val windspeed = weatherData.wind.speed
+        val sunRise = weatherData.sys.sunrise.toLong()
+        val sunSet = weatherData.sys.sunset.toLong()
+        val seaLevel = weatherData.main.pressure
+        val condition = weatherData.weather.firstOrNull()?.main ?: "unknown"
+        val maxTemp = weatherData.main.temp_max
+        val minTemp = weatherData.main.temp_min
+
+        binding.temp.text = "$temperature C"
+        binding.weather.text = condition
+        binding.maxTemp.text = "Max: $maxTemp C"
+        binding.minTemp.text = "Min: $minTemp C"
+        binding.Humidity.text = "$humidity %"
+        binding.windspeed.text = "$windspeed m/s"
+        binding.sunrise.text = "${time(sunRise)}"
+        binding.sunset.text = "${time(sunSet)}"
+        binding.sea.text = "$seaLevel hpa"
+        binding.Condition.text = condition
+        binding.day.text = dayName(System.currentTimeMillis())
+        binding.date.text = date()
+        binding.cityName.text = locationName
+
+        changeImagesaccordingtoweather(condition)
     }
 
     private fun changeImagesaccordingtoweather(conditions: String) {
@@ -244,16 +246,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun date(): String {
         val sdf = SimpleDateFormat("dd MMM yyyy", Locale.getDefault())
-        return sdf.format((Date()))
+        return sdf.format(Date())
     }
 
     private fun time(timestamp: Long): String {
         val sdf = SimpleDateFormat("HH:mm", Locale.getDefault())
-        return sdf.format((Date(timestamp * 1000)))
+        return sdf.format(Date(timestamp * 1000))
     }
 
-    fun dayName(timestamp: Long): String {
+    private fun dayName(timestamp: Long): String {
         val sdf = SimpleDateFormat("EEEE", Locale.getDefault())
-        return sdf.format((Date()))
+        return sdf.format(Date())
     }
 }
+
+
+
