@@ -1,7 +1,6 @@
 package com.example.weatherapp
 
 import WeatherApp
-import okhttp3.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -12,5 +11,13 @@ interface ApiInterface {
         @Query("appid") appid:String,
         @Query("units") units:String
     ) : retrofit2.Call<WeatherApp>
+
+    @GET("weather")
+    fun getWeatherDataByCoordinates(
+        @Query("lat") latitude: Double,
+        @Query("lon") longitude: Double,
+        @Query("appid") appid: String,
+        @Query("units") units: String
+    ):  retrofit2.Call<WeatherApp>
 
 }
