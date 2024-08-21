@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SearchView;
 import android.widget.TextView;
@@ -44,6 +45,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final FrameLayout frameLayout;
+
+  @NonNull
+  public final ImageView imageView4;
 
   @NonNull
   public final LinearLayout linearLayout10;
@@ -105,14 +109,14 @@ public final class ActivityMainBinding implements ViewBinding {
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Condition,
       @NonNull TextView Humidity, @NonNull TextView cityName, @NonNull TextView date,
       @NonNull TextView day, @NonNull Flow flow7, @NonNull FrameLayout frameLayout,
-      @NonNull LinearLayout linearLayout10, @NonNull LinearLayout linearLayout11,
-      @NonNull LinearLayout linearLayout12, @NonNull LinearLayout linearLayout7,
-      @NonNull LinearLayout linearLayout8, @NonNull LinearLayout linearLayout9,
-      @NonNull LottieAnimationView lottieAnimationView, @NonNull ConstraintLayout main,
-      @NonNull TextView maxTemp, @NonNull TextView minTemp, @NonNull TextView sea,
-      @NonNull SearchView searchView, @NonNull TextView sunrise, @NonNull TextView sunset,
-      @NonNull TextView temp, @NonNull TextView textView13, @NonNull TextView textView3,
-      @NonNull TextView weather, @NonNull TextView windspeed) {
+      @NonNull ImageView imageView4, @NonNull LinearLayout linearLayout10,
+      @NonNull LinearLayout linearLayout11, @NonNull LinearLayout linearLayout12,
+      @NonNull LinearLayout linearLayout7, @NonNull LinearLayout linearLayout8,
+      @NonNull LinearLayout linearLayout9, @NonNull LottieAnimationView lottieAnimationView,
+      @NonNull ConstraintLayout main, @NonNull TextView maxTemp, @NonNull TextView minTemp,
+      @NonNull TextView sea, @NonNull SearchView searchView, @NonNull TextView sunrise,
+      @NonNull TextView sunset, @NonNull TextView temp, @NonNull TextView textView13,
+      @NonNull TextView textView3, @NonNull TextView weather, @NonNull TextView windspeed) {
     this.rootView = rootView;
     this.Condition = Condition;
     this.Humidity = Humidity;
@@ -121,6 +125,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.day = day;
     this.flow7 = flow7;
     this.frameLayout = frameLayout;
+    this.imageView4 = imageView4;
     this.linearLayout10 = linearLayout10;
     this.linearLayout11 = linearLayout11;
     this.linearLayout12 = linearLayout12;
@@ -208,6 +213,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.frameLayout;
       FrameLayout frameLayout = ViewBindings.findChildViewById(rootView, id);
       if (frameLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
         break missingId;
       }
 
@@ -322,7 +333,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, Condition, Humidity, cityName,
-          date, day, flow7, frameLayout, linearLayout10, linearLayout11, linearLayout12,
+          date, day, flow7, frameLayout, imageView4, linearLayout10, linearLayout11, linearLayout12,
           linearLayout7, linearLayout8, linearLayout9, lottieAnimationView, main, maxTemp, minTemp,
           sea, searchView, sunrise, sunset, temp, textView13, textView3, weather, windspeed);
     }

@@ -1,242 +1,258 @@
 [
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_30.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_30.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_splash_screen_jpg.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\splash_screen_jpg.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_18.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_18.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_27.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_27.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_5.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_5.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_56.png.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_56.png"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_centigrade.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\centigrade.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group1.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group1.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_31.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_31.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.weatherapp-main-36:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_cloud_background.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/cloud_background.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\color_black.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\color\\black.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable__289485.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\_289485.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_backgroundshape.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\backgroundshape.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/raw_rain.json.flat",
-        "source": "com.example.weatherapp-main-36:/raw/rain.json"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_5.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_5.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_sunny_background.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/sunny_background.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_searchviewshape.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\searchviewshape.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_51.png.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_51.png"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_3.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_3.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_rain_background.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/rain_background.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_57.png.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_57.png"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "com.example.weatherapp-debug-34:/drawable_backg1.jpg.flat",
+        "source": "com.example.weatherapp-main-36:/drawable/backg1.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable__289485.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/_289485.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable__373030.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\_373030.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_cloud_background.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\cloud_background.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/color_black.xml.flat",
-        "source": "com.example.weatherapp-main-36:/color/black.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_30.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_30.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_54.png.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_54.png"
-    },
-    {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_17.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_17.xml"
-    },
-    {
-        "merged": "com.example.weatherapp-debug-34:/drawable_sunny.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/sunny.xml"
-    },
-    {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_57.png.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_57.png"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.weatherapp-debug-34:/layout_activity_splash.xml.flat",
         "source": "com.example.weatherapp-main-36:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/raw_cloud.json.flat",
-        "source": "com.example.weatherapp-main-36:/raw/cloud.json"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_53.png.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_53.png"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_searchviewshape.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/searchviewshape.xml"
+        "merged": "com.example.weatherapp-debug-34:/drawable_enigma_logo.jpg.flat",
+        "source": "com.example.weatherapp-main-36:/drawable/enigma_logo.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable__195404.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/_195404.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\color_white.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\color\\white.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_17.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_17.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_27.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_27.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_rainny.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/rainny.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/raw_snow.json.flat",
-        "source": "com.example.weatherapp-main-36:/raw/snow.json"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\raw_rain.json.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\raw\\rain.json"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_backgroundshape.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/backgroundshape.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_rainny.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\rainny.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_splash_screen.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/splash_screen.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_29.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_29.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group1.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group1.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_53.png.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_53.png"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable__195404.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\_195404.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_centigrade.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/centigrade.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_snow_background.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/snow_background.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/color_white.xml.flat",
-        "source": "com.example.weatherapp-main-36:/color/white.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_icon.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_splash_screen.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\splash_screen.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_51.png.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_51.png"
+    },
+    {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\raw_snow.json.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\raw\\snow.json"
     },
     {
         "merged": "com.example.weatherapp-debug-34:/layout_activity_main.xml.flat",
         "source": "com.example.weatherapp-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/raw_sun.json.flat",
-        "source": "com.example.weatherapp-main-36:/raw/sun.json"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_54.png.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_54.png"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_18.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_18.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_icon.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/icon.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_3.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_3.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_56.png.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_56.png"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_52.png.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_52.png"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_snow_background.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\snow_background.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_vector.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/vector.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.weatherapp-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_52.png.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_52.png"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_31.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_31.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_vector.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\vector.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_splash_screen_jpg.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/splash_screen_jpg.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_rain_background.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\rain_background.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_29.xml.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_29.xml"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_sunny_background.jpg.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\sunny_background.jpg"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable_group_55.png.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/group_55.png"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.weatherapp-debug-34:/drawable__373030.jpg.flat",
-        "source": "com.example.weatherapp-main-36:/drawable/_373030.jpg"
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\raw_sun.json.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\raw\\sun.json"
+    },
+    {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_sunny.xml.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\sunny.xml"
+    },
+    {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\raw_cloud.json.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\raw\\cloud.json"
+    },
+    {
+        "merged": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-debug-34:\\drawable_group_55.png.flat",
+        "source": "C:\\Users\\ayush\\.gradle\\daemon\\8.7\\com.example.weatherapp-main-36:\\drawable\\group_55.png"
     }
 ]

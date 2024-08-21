@@ -6,9 +6,11 @@ color white
 drawable _195404
 drawable _289485
 drawable _373030
+drawable backg1
 drawable backgroundshape
 drawable centigrade
 drawable cloud_background
+drawable enigma_logo
 drawable group1
 drawable group_17
 drawable group_18
@@ -45,6 +47,7 @@ id day
 id flow7
 id frameLayout
 id imageView
+id imageView4
 id linearLayout10
 id linearLayout11
 id linearLayout12

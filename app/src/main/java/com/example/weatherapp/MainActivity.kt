@@ -23,6 +23,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.Date
 import java.util.Locale
 import android.Manifest
+import android.content.Intent
+import android.net.Uri
+import android.widget.ImageView
 import android.widget.Toast
 
 
@@ -48,6 +51,11 @@ class MainActivity : AppCompatActivity() {
         SearchCity()
 
         checkLocationPermissions() // Request location permissions
+        val Enigmalogo = findViewById<ImageView>(R.id.imageView4)
+        Enigmalogo.setOnClickListener{
+            val EnigmaIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/enigma_vssut/"))
+            startActivity(EnigmaIntent)
+        }
     }
 
     private fun checkLocationPermissions() {
