@@ -3030,6 +3030,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable backg1
 drawable backgroundshape
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3065,6 +3066,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable enigma_logo
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable group1
@@ -3426,6 +3428,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView4
 id immediateStop
 id included
 id indeterminate
